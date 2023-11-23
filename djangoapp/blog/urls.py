@@ -4,5 +4,5 @@ from blog.views import index
 app_name = "blog"
 
 urlpatterns = [
-    path("admin/", index, name="index"),
+    path("", index, name="index"),
 ]
